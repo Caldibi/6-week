@@ -1,0 +1,35 @@
+#technologies .checked::marker {
+  content: "✅";
+}
+#technologies li::marker {
+  content: "⏳";
+}
+#technologies li:hover {
+  color: red;
+}
+.task-2::first-line {
+  background-color: blue;
+  color: white;
+}
+.task-2::selection {
+  background-color: green;
+  color: white;
+}
+.task-2::first-letter {
+  background-color: red;
+}
+::-webkit-scrollbar {
+  width: 30px;
+}
+::-webkit-scrollbar-track {
+  background: blue;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
